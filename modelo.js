@@ -29,6 +29,8 @@ function get_num_respostas(id_pergunta) {
   return resultado['count(*)'];
 }
 
+console.log(listar_perguntas());
+
 exports.listar_perguntas = listar_perguntas;
 exports.cadastrar_pergunta = cadastrar_pergunta;
 exports.cadastrar_resposta = cadastrar_resposta;
